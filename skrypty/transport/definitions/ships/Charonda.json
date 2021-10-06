@@ -15,7 +15,7 @@
         {
             "start": 3281,
             "destination": 9705,
-            "time": 76,
+            "time": 110,
             "stop_pattern": "^(?:Otyly czerwononosy mezczyzna|Charonda) krzyczy: Doplynelismy do centralnego nabrzeza w Baccali! Mozna wysiadac!$",
             "set_pattern": "^(?:Otyly czerwononosy mezczyzna|Charonda).*: Nastepnym portem bedzie centralne nabrzeze w Baccali",
             "label": "Baccala"
@@ -23,7 +23,7 @@
         {
             "start": 9705,
             "destination": 3281,
-            "time": 76,
+            "time": 110,
             "stop_pattern": "^(?:Otyly czerwononosy mezczyzna|Charonda) krzyczy: Doplynelismy do przystani w twierdzy Rozrog! Mozna wysiadac!$",
             "set_pattern": "^(?:Otyly czerwononosy mezczyzna|Charonda).*: Nastepnym portem bedzie przystan w twierdzy Rozrog",
             "label": "Rozrog"
