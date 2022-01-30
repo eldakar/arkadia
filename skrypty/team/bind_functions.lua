@@ -140,6 +140,8 @@ function ateam:retrieve_id(id)
         id_retrieved = ateam.normal_ids[tonumber(id)]
     elseif string.starts(id, "ob") == true then
         id_retrieved = id:gsub("ob_", "")
+    else
+        return nil
     end
 
     if not ateam.objs[id_retrieved].desc:starts("czarnoodzian") then
